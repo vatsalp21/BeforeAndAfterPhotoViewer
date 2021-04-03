@@ -1,0 +1,55 @@
+body {
+  font-family: "Dela Gothic One", cursive;
+  font-family: "Lexend", sans-serif;
+}
+
+hr {
+  border-top: 3px solid black;
+}
+
+.rect1 {
+  display: inline-block;
+  height: 560px;
+  width: 400px;
+  outline-style: solid;
+  margin-left: 220px;
+  margin-top: 35px;
+  position: relative;
+}
+
+.rect2 {
+  display: inline-block;
+  height: 560px;
+  width: 400px;
+  outline-style: solid;
+  margin-left: 260px;
+  margin-top: 35px;
+}
+
+.file1 {
+  padding-left: 340px;
+  padding-top: 20px;
+}
+
+.file2 {
+  margin-left: 1010px;
+  margin-top: -20px;
+}
+
+#output_image {
+  display: inline-block;
+  height: 553px;
+  width: 394px;
+  left: 231px;
+  top: 133px;
+  position: absolute;
+}
+#output_image1 {
+  display: inline-block;
+  height: 553px;
+  width: 394px;
+  left: 895.8px;
+  top: 133px;
+  position: absolute;
+}
+

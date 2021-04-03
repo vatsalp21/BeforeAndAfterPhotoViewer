@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Before After App</title>
+  </head>
+  <body>
+    <h1><center>Before / After Photo Viewer</center></h1>
+    <hr />
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <img id="output_image" width="560px" height="400px" alt="img1" />
+    <div class="file1">
+      <input type="file" accept="image/*" onchange="preview_image(event)" />
+    </div>
+    <img id="output_image1" width="560px" height="400px" alt="img2" />
+    <div class="file2">
+      <input type="file" accept="image/*" onchange="preview_image1(event)" />
+    </div>
+  </body>
+</html>
